@@ -7,7 +7,7 @@ jest.mock("axios");
 const middleware = [reduxThunk];
 const mockStore = configureStore(middleware);
 
-describe("BookActions", () => {
+describe("Book Actions Tests", () => {
   it("should be able to dispatch action successfully", async () => {
     const store = mockStore({});
 
