@@ -5,7 +5,7 @@ import BookListItem from "../BookListItem";
 describe("Book List Item Tests", () => {
   it("should render book list item without error", () => {
     const book = {
-      id: 1,
+      id: "1",
       title: "test title",
       description: "test description",
       releaseYear: 2018,

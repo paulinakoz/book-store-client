@@ -11,13 +11,13 @@ describe("Book List Tests", () => {
   });
   const books = [
     {
-      id: 1,
+      id: "1",
       title: "test title",
       description: "test description",
       releaseYear: 2018,
     },
     {
-      id: 2,
+      id: "2",
       title: "test title",
       description: "test description",
       releaseYear: 2019,
