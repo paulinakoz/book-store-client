@@ -14,6 +14,6 @@ function App() {
       <BookContainer />
     </Layout>
   );
-}
+};
 
 export default App;
