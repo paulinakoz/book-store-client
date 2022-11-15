@@ -1,7 +1,7 @@
 import React from "react";
 import { render } from "@testing-library/react";
-import BookListItem from "../BookListItem";
-import BookList from "../BookList";
+import BookListItem from "../BookListItem.jsx";
+import BookList from "../BookList.jsx";
 
 jest.mock("../bookListItem");
 

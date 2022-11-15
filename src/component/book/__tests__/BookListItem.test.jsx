@@ -1,6 +1,6 @@
 import React from "react";
 import { render, screen } from "@testing-library/react";
-import BookListItem from "../BookListItem";
+import BookListItem from "../BookListItem.jsx";
 
 describe("Book List Item Tests", () => {
   it("should render book list item without error", () => {
