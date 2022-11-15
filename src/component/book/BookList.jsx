@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { Box } from "@mui/material";
-import BookListItem from "./bookListItem";
+import BookListItem from "./BookListItem";
 
 const propTypes = {
   books: PropTypes.arrayOf({

@@ -13,7 +13,6 @@ const BookContainer = () => {
   }, [dispatch]);
 
   const books = useSelector(getBooksSelector);
-  console.log(books);
   return (
     <Box
       sx={{ display: "flex", justifyContent: "center", flexDirection: "row" }}
