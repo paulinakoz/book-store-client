@@ -1,8 +1,18 @@
 import { Box } from "@mui/system";
-import React from "react";
+import React, { useEffect } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import getBooksAction from "../../module/book/bookAction";
+import { getBooksSelector } from "../../module/book/bookSelector";
 import BookFilter from "./BookFilter";
 
 const BookContainer = () => {
+  const dispatch = useDispatch();
+  useEffect(() => {
+    dispatch(getBooksAction());
+  }, [dispatch]);
+
+  const books = useSelector(getBooksSelector);
+  console.log(books);
   return (
     <Box
       sx={{ display: "flex", justifyContent: "center", flexDirection: "row" }}
