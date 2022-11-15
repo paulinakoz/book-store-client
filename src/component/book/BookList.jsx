@@ -1,21 +1,22 @@
 import React from "react";
-import Proptypes from "prop-types";
+import PropTypes from "prop-types";
 import { Box } from "@mui/material";
+import BookListItem from "./bookListItem";
 
 const propTypes = {
-  books: Proptypes.arrayOf({
-    id: Proptypes.string.isRequired,
-    title: Proptypes.string.isRequired,
-    description: Proptypes.string.isRequired,
-    releaseYear: Proptypes.number.isRequired,
+  books: PropTypes.arrayOf({
+    id: PropTypes.string.isRequired,
+    title: PropTypes.string.isRequired,
+    description: PropTypes.string.isRequired,
+    releaseYear: PropTypes.number.isRequired,
   }).isRequired,
 };
 
 const BookList = ({ books }) => {
   return (
-    <Box sx={{}}>
+    <Box sx={{}} ml={5}>
       {books.map((book) => (
-        <div key={book.id}>{book.id}</div>
+        <BookListItem book={book} key={book.id} />
       ))}
     </Box>
   );
