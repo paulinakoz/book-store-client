@@ -32,7 +32,7 @@
     "start": "serve -s build",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "test:nowatch": "CI=true react-scripts test --coverage --transformIgnorePatterns 'node_modules/(?!my-library-dir)/' --passWithNoTests",
+    "test:nowatch": "CI=true react-scripts test --coverage",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
