@@ -1,9 +1,9 @@
 import React from "react";
 import renderWithRedux from "../../../util/testUtil";
-import BookContainer from "../BookContainer";
-import BookList from "../BookList";
 import { getBooksAction } from "../../../module/book/bookAction";
 import { screen } from "@testing-library/react";
+import BookContainer from "../BookContainer";
+import BookList from "../BookList";
 
 jest.mock("../BookList");
 jest.mock("../../../module/book/bookAction");
