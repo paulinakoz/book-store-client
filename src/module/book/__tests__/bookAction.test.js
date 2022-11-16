@@ -62,4 +62,20 @@ describe("Book Actions Tests", () => {
       ],
     });
   });
+
+  it("should be able to dispatch error action", async () => {
+    const store = mockStore({});
+    mockAxios.get.mockImplementation(() => {
+      throw new Error();
+    });
+
+    await store.dispatch(getBooksByTitle("test title"));
+
+    const actions = store.getActions();
+
+    expect(actions.length).toEqual(2);
+    expect(actions[1]).toEqual({
+      type: "BOOKLISTERROR",
+    });
+  });
 });
