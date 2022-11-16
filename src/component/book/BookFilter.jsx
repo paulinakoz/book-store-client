@@ -19,8 +19,10 @@ const BookFilter = () => {
   return (
     <Box sx={{ width: "20%", height: "500px" }}>
       <Paper sx={{ width: "100%", height: "100%", textAlign: "center" }}>
-        <Typography>Search Books</Typography>
-        <Box paddingTop={3} marginBottom={2}>
+        <Typography variant="h6" paddingTop={3}>
+          Search Books
+        </Typography>
+        <Box paddingTop={2} marginBottom={2}>
           <TextField
             placeholder="Enter book title"
             id="book-search"
