@@ -3,7 +3,7 @@ import { render } from "@testing-library/react";
 import BookListItem from "../BookListItem.jsx";
 import BookList from "../BookList.jsx";
 
-jest.mock("../bookListItem");
+jest.mock("../BookListItem.jsx");
 
 describe("Book List Tests", () => {
   beforeAll(() => {
