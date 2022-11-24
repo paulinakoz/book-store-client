@@ -7,6 +7,7 @@ const propTypes = {
   books: PropTypes.arrayOf({
     id: PropTypes.string.isRequired,
     title: PropTypes.string.isRequired,
+    author: PropTypes.string.isRequired,
     description: PropTypes.string.isRequired,
     releaseYear: PropTypes.number.isRequired,
   }).isRequired,

@@ -13,12 +13,14 @@ describe("Book List Tests", () => {
     {
       id: "1",
       title: "test title",
+      author: "test author",
       description: "test description",
       releaseYear: 2018,
     },
     {
       id: "2",
       title: "test title",
+      author: "test author",
       description: "test description",
       releaseYear: 2019,
     },

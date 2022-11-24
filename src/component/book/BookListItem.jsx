@@ -6,6 +6,7 @@ const propTypes = {
   book: PropTypes.shape({
     id: PropTypes.string.isRequired,
     title: PropTypes.string.isRequired,
+    author: PropTypes.string.isRequired,
     description: PropTypes.string.isRequired,
     releaseYear: PropTypes.number.isRequired,
   }).isRequired,
@@ -23,6 +24,7 @@ const BookListItem = ({ book }) => {
         </Avatar>
         <Box ml={2}>
           <Typography variant="h5">{book.title}</Typography>
+          <Typography>{book.author}</Typography>
           <Typography>{book.description}</Typography>
           <Typography>{book.releaseYear}</Typography>
         </Box>
