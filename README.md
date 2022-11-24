@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+# Digital Book Journal
+This is the frontend of a Java Full Stack Application built using React & Spring Boot. I was inspired to do this project as reading books is one of my hobbies and I wanted to create a digital book journal where I could keep track of all the books I have read. It was also an opportunity for me to learn new technologies such as SpringBoot and MongoDB which I have not used previously.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[Here](https://github.com/paulinakoz/book-store) is a link to the backend application for this project.
+More information on the project can be found in the README of that application. 
 
-## Available Scripts
+## Built With 
+* [![React][React.js]][React-url]
+* ![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white)
+* ![MUI](https://img.shields.io/badge/MUI-%230081CB.svg?style=for-the-badge&logo=mui&logoColor=white)
 
-In the project directory, you can run:
+## Quick Start 
+```
+# Clone this repository
+git clone git@github.com:paulinakoz/book-store-client.git
+cd book-store-client
 
-### `npm start`
+# Install dependencies
+npm install
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Run the build using
+npm build
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Run tests using 
+npm test 
+npm test:nowatch
+```
+## User Stories
+````
+As a user,
+To keep track of the books I read,
+I want to be able to add them to the book journal
 
-### `npm test`
+As a user, 
+To check what books are in my book journal,
+I want to be able to fetch all books
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+As a user,
+To check if a specific book is already in the book journal,
+I want to be able to search for the book by its title
 
-### `npm run build`
+As a user,
+So that I have more information about the book, 
+I want to see the author, description and release year
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+As a user,
+To edit books already in the journal, 
+I want to be able to update book details like the title, description or author
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+As a user, 
+If I no longer want a book to be in the journal,
+I want to be able to delete it from the list
+````
+## Application Architecture
+* Spring boot on the backend
+* React on the frontend
+* MongoDB for the database
+* Continuous integration using Travis CI
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Frontend Architecture
+<img alt="frontend" src="./images/frontend.png" style="display: block;" />
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[React-url]: https://reactjs.org/

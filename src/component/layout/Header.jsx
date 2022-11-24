@@ -6,7 +6,7 @@ const Header = () => {
         <AppBar position="fixed">
             <Toolbar variant="dense">
                 <Typography variant="h6" color="inherit">
-                    Book Store
+                    Digital Book Journal
                 </Typography>
             </Toolbar>
         </AppBar>
