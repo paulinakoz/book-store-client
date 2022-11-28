@@ -61,6 +61,11 @@ I want to be able to delete it from the list
 ### Frontend Architecture
 <img alt="frontend" src="./images/frontend.png" style="display: block;" />
 
+### What it looks like currently
+<img alt="current" src="./images/current.png" style="display: block;" />
+
+### Plans for the future
+<img alt="future" src="./images/future.png" style="display: block;" />
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
